@@ -1,0 +1,24 @@
+.main-container {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.card-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  height: 79vh;
+  overflow: scroll;
+  padding: 80px 20px 10px;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px -5px 5px 1px rgba(0, 0, 0, 0.2);
+}
